@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <form name="signup" onsubmit="alert('Hello World!');" action="#">
+        Nome: <input type="text" name="name" />
+        Idade: <input type="number" name="age" />
+        Senha: <input type="password" name="password" /><br><br>
+        <!-- Tipos de inputs -->
+        <label>Digite aqui: </label> <input type="text" /><br>
+        <label>Number: </label> <input type="number" min="0" max="99" step="5" /><br>
+        <label>Button: </label><input type="button" value="Enviar" /><br>
+        <label>Range: </label><input type="range" min="0" max="100" value="30"/><br>
+        <label>Color: </label><input type="color" /><br>
+        <label>Email: </label><input type="email" /><br>
+        <label>URL: </label><input type="url" /><br>
+        <label>Date: </label><input type="date" /><br>
+        <label>Week: </label><input type="week" /><br>
+        <label>Month: </label><input type="month" /><br>
+        <label>Checkbox: </label><input type="checkbox" /><input type="checkbox" /><br>
+        <label>Radio: </label><input type="radio" name="mesmo"/><input type="radio" name="mesmo" /><br>
+        <label>Hidden: </label><input type="hidden" /><br>
+        <label>File: </label><input type="file" multiple/><br>
+        <label>Search: </label><input type="search" /><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

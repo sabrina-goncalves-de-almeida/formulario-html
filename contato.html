@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro de contato</title>
+</head>
+<body>
+    <form onsubmit="" method="get">
+        <label>Nome: </label> <input type="text" name="name"/><br>
+        <label>Cargo: </label> 
+        <select name="role" multiple>
+            <option value="">Selecione o cargo</option>
+            <option selected value="gerente">Gerente</option>
+            <option value="diretor">Diretor</option>
+            <option value="presidente">Presidente</option>
+        </select><br>
+        <label>Assunto: </label> <input type="text" name="subject"/><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
